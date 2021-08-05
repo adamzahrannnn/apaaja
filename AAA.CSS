@@ -1,0 +1,70 @@
+body { margin: auto;
+    width: 800px;
+    }
+
+header { 
+    background-image: url(test3.jpg);
+    padding: 40px;
+    color: white;
+}
+
+h1 { font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.navigasi {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0.5px;
+    
+}
+
+.navigasi ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.navigasi a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.navigasi a:hover {
+    background-color: lightcoral;
+    padding: 15px;
+}
+
+.conten{
+    background-color: wheat;
+    padding: 10px;
+    border: 5px solid burlywood;
+    border-radius: 5px;
+    margin-bottom: 0.5px;
+    
+}
+.conten img{
+    width: 200px;
+    height: 320px;
+    float: left;
+    margin : 5px 15px;
+}
+.conten h4,p {
+    margin-right: 20px;
+    font: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 8px;
+}
+.conten a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.conten a:hover{
+    color: black;
+    background-color: rgb(180, 131, 40);  
+    padding: 10px;  
+}
+
+
